@@ -1,0 +1,10 @@
+dotenv
+pydantic
+pydantic_settings
+httpx
+langchain
+langchain_community
+langchain_core
+langchain-openai
+uvicorn
+fastapi
