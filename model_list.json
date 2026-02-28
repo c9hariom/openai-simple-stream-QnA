@@ -1,0 +1,193 @@
+{
+  "openai": {
+    "chat_models": [
+      "openai.gpt-5",
+      "openai.gpt-5.1",
+      "openai.gpt-5.1-2025-11-13",
+      "openai.gpt-5.2",
+      "openai.gpt-5.2-2025-12-11",
+      "openai.gpt-5-chat-latest",
+      "openai.gpt-4.1",
+      "openai.gpt-4.1-2025-04-14",
+      "openai.gpt-4.1-mini",
+      "openai.gpt-4.1-mini-2025-04-14",
+      "openai.gpt-4.1-nano",
+      "openai.gpt-4.1-nano-2025-04-14",
+      "openai.gpt-4o",
+      "openai.gpt-4o-2024-11-20",
+      "openai.gpt-4o-mini",
+      "openai.gpt-4o-mini-transcribe",
+      "openai.gpt-4o-mini-tts",
+      "openai.gpt-4o-transcribe"
+    ],
+    "reasoning_models": [
+      "openai.o1",
+      "openai.o1-2024-12-17",
+      "openai.o3",
+      "openai.o3-mini",
+      "openai.o3-mini-2025-01-31",
+      "openai.o3-deep-research",
+      "openai.o3-deep-research-2025-06-26",
+      "openai.o4-mini",
+      "openai.o4-mini-2025-04-16"
+    ],
+    "image_models": [
+      "openai.gpt-image-1",
+      "openai.gpt-image-1.5",
+      "openai.gpt-image-1-mini"
+    ],
+    "audio_models": [
+      "openai.whisper"
+    ],
+    "codex_models": [
+      "openai.gpt-5-codex",
+      "openai.gpt-5.1-codex",
+      "openai.gpt-5.1-codex-mini",
+      "openai.gpt-5.2-codex"
+    ],
+    "other": [
+      "gpt-realtime",
+      "gpt-realtime-2025-08-28",
+      "gpt-realtime-mini",
+      "gpt-realtime-mini-2025-10-06",
+      "gpt-realtime-2025-08-28",
+      "all-proxy-models"
+    ]
+  },
+  "azure": {
+    "chat_models": [
+      "azure.gpt-5",
+      "azure.gpt-5-2025-08-07",
+      "azure.gpt-5.1",
+      "azure.gpt-5.1-2025-11-13",
+      "azure.gpt-5.2",
+      "azure.gpt-5.2-2025-12-11",
+      "azure.gpt-5-mini",
+      "azure.gpt-5-mini-2025-08-07",
+      "azure.gpt-5-nano",
+      "azure.gpt-5-nano-2025-08-07",
+      "azure.gpt-4.1",
+      "azure.gpt-4.1-2025-04-14",
+      "azure.gpt-4.1-mini",
+      "azure.gpt-4.1-mini-2025-04-14",
+      "azure.gpt-4.1-nano",
+      "azure.gpt-4.1-nano-2025-04-14",
+      "azure.gpt-4o",
+      "azure.gpt-4o-2024-05-13",
+      "azure.gpt-4o-2024-08-06",
+      "azure.gpt-4o-2024-11-20",
+      "azure.gpt-4o-mini"
+    ],
+    "reasoning_models": [
+      "azure.o1",
+      "azure.o1-2024-12-17",
+      "azure.o3",
+      "azure.o3-mini",
+      "azure.o3-mini-2025-01-31",
+      "azure.o3-2025-04-16",
+      "azure.o4-mini",
+      "azure.o4-mini-2025-04-16"
+    ],
+    "embedding_models": [
+      "azure.text-embedding-ada-002",
+      "azure.text-embedding-3-large",
+      "azure.text-embedding-3-small"
+    ],
+    "image_models": [
+      "azure.dall-e-3"
+    ]
+  },
+  "aws_bedrock": {
+    "mistral": [
+      "bedrock.mistral.mistral-large-2402-v1",
+      "bedrock.mistral.mistral-large-2407-v1",
+      "bedrock.mistral.mistral-small-2402-v1",
+      "bedrock.mistral.mistral-7b-instruct-v0",
+      "bedrock.mistral.mixtral-8x7b-instruct-v0",
+      "bedrock.mistral.pixtral-large-2502-v1"
+    ],
+    "anthropic": [
+      "bedrock.anthropic.claude-3-opus",
+      "bedrock.anthropic.claude-3-haiku",
+      "bedrock.anthropic.claude-3-5-haiku",
+      "bedrock.anthropic.claude-3-5-sonnet",
+      "bedrock.anthropic.claude-3-5-sonnet-v2",
+      "bedrock.anthropic.claude-3-7-sonnet-v1",
+      "bedrock.anthropic.claude-sonnet-4",
+      "bedrock.anthropic.claude-sonnet-4-5",
+      "bedrock.anthropic.claude-sonnet-4-6",
+      "bedrock.anthropic.claude-opus-4",
+      "bedrock.anthropic.claude-opus-4-1",
+      "bedrock.anthropic.claude-opus-4-5",
+      "bedrock.anthropic.claude-opus-4-6"
+    ],
+    "meta": [
+      "bedrock.meta.llama3-8b-instruct-v1",
+      "bedrock.meta.llama3-70b-instruct-v1",
+      "bedrock.meta.llama3-3-70b-instruct-v1",
+      "bedrock.meta.llama4-maverick-17b-instruct-v1"
+    ],
+    "amazon": [
+      "bedrock.amazon.nova-pro-v1",
+      "bedrock.amazon.nova-lite-v1",
+      "bedrock.amazon.nova-micro-v1",
+      "bedrock.amazon.nova-canvas-v1",
+      "bedrock.amazon.titan-embed-text-v1",
+      "bedrock.amazon.titan-embed-text-v2",
+      "bedrock.amazon.titan-embed-image-v1"
+    ],
+    "cohere": [
+      "bedrock.cohere.command-r-plus-v1",
+      "bedrock.cohere.embed-v4",
+      "bedrock.cohere.rerank-3-5"
+    ],
+    "openai": [
+      "bedrock.openai.gpt-oss-20b",
+      "bedrock.openai.gpt-oss-120b"
+    ]
+  },
+  "google_vertex_ai": {
+    "gemini": [
+      "vertex_ai.gemini-2.0-flash",
+      "vertex_ai.gemini-2.0-flash-001",
+      "vertex_ai.gemini-2.0-flash-lite",
+      "vertex_ai.gemini-2.0-flash-lite-001",
+      "vertex_ai.gemini-2.5-pro",
+      "vertex_ai.gemini-2.5-flash",
+      "vertex_ai.gemini-2.5-flash-lite",
+      "vertex_ai.gemini-3-pro-preview",
+      "vertex_ai.gemini-3.1-pro-preview",
+      "vertex_ai.gemini-3-flash-preview",
+      "vertex_ai.gemini-3-pro-image-preview",
+      "vertex_ai.gemini-2.5-flash-image"
+    ],
+    "anthropic": [
+      "vertex_ai.anthropic.claude-3-opus",
+      "vertex_ai.anthropic.claude-3-haiku",
+      "vertex_ai.anthropic.claude-3-5-haiku",
+      "vertex_ai.anthropic.claude-sonnet-4",
+      "vertex_ai.anthropic.claude-sonnet-4-5",
+      "vertex_ai.anthropic.claude-sonnet-4-6",
+      "vertex_ai.anthropic.claude-3-7-sonnet",
+      "vertex_ai.anthropic.claude-opus-4",
+      "vertex_ai.anthropic.claude-opus-4-1",
+      "vertex_ai.anthropic.claude-opus-4-5",
+      "vertex_ai.anthropic.claude-opus-4-6"
+    ],
+    "meta": [
+      "vertex_ai.meta.llama-4-maverick-17b-128e-instruct",
+      "vertex_ai.meta.llama-4-scout-17b-16e-instruct"
+    ],
+    "imagen": [
+      "vertex_ai.imagen-3.0-fast-generate-001",
+      "vertex_ai.imagen-3.0-generate-001",
+      "vertex_ai.imagen-4.0-fast-generate-001",
+      "vertex_ai.imagen-4.0-generate-001"
+    ],
+    "embedding": [
+      "vertex_ai.text-embedding-005",
+      "vertex_ai.gemini-embedding-001",
+      "vertex_ai.gemini-embedding"
+    ]
+  }
+}
